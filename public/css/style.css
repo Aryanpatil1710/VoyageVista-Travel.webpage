@@ -123,3 +123,39 @@ body{
     width: 80vh;
 }
 
+/* Adjustments for mobile screens */
+@media only screen and (max-width: 768px) {
+    /* General container styles for better alignment */
+    .container {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        padding: 10px !important;
+    }
+    
+    /* Styling the review section */
+    .review {
+        width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+    
+    /* Map adjustments for mobile */
+    #map {
+        width: 100% !important;
+        height: 300px !important; /* Adjust height as needed */
+        margin-bottom: 20px !important;
+    }
+
+    /* Ensuring buttons and interactive elements are properly spaced */
+    .button {
+        width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+
+    /* Adjust the footer */
+    footer {
+        text-align: center !important;
+        width: 100% !important;
+        padding: 10px !important;
+    }
+}
