@@ -14,6 +14,6 @@ Full responsiveness
 ,Creation and deletion of properties
 ,Example::One can Airbnb their home, create or delete a listing by signing in or logging into the system. You can also review those listings.
 
-Install packages :: npm I
+Install packages :: npm i
 
 Start the app :: node app.js
